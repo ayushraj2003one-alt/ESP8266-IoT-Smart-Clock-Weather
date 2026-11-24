@@ -19,6 +19,13 @@
   Features a standalone Wi-Fi Access Point (SoftAP), dynamic HTTP web dashboard, 0.96" I2C OLED display, battery-backed DS1307 RTC, DHT11 environmental sensing, and a non-blocking asynchronous timing loop.
 </p>
 
+<br/>
+
+<div align="center">
+  <img src="assets/images/hardware_setup.jpg" width="85%" alt="ESP8266 IoT Clock Hardware Prototype" />
+  <p><i>Figure 1: Live Hardware Prototype — ESP8266 NodeMCU connected to 0.96" SSD1306 OLED, DHT11 Climate Sensor, and DS1307 Real-Time Clock on Breadboard.</i></p>
+</div>
+
 </div>
 
 ---
@@ -174,6 +181,9 @@ When your smartphone or PC connects to the **`ESP-Clock`** Wi-Fi network, naviga
 
 ```text
 ESP8266-IoT-Smart-Clock-Weather/
+├── 📁 assets/
+│   └── 📁 images/
+│       └── hardware_setup.jpg        # Live breadboard prototype photograph
 ├── 📁 src/
 │   └── main.cpp                      # Core firmware with non-blocking timing loop
 ├── 📁 arduino/
